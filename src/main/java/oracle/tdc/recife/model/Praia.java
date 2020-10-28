@@ -11,7 +11,9 @@ public class Praia {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 	private String nome;
-	
+	public Praia() {
+		
+	}
 	public Praia(String nome) {
 		this.nome=nome;
 	}
