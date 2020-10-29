@@ -14,5 +14,7 @@
 - Benefícios dos Starters para Cloud Native
 - Construção e deploy de uma API no Cloud Oracle
 
+## Palestrantes
 > **Gleyson Sampaio** Desenvolvedor **Digytal** 
+
 > **Frank Santos** Arquiteto **Digytal** 
