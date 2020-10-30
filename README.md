@@ -49,9 +49,12 @@ curl http://{PUBLIC_IP}:8080/
 
 ## Visualizando a saúde da aplicaçaõ com Actuator
 
-curl http://{PUBLIC_IP}:8080/actuator/
+curl http://{PUBLIC_IP}:8080/actuator
+
 curl http://{PUBLIC_IP}:8080/actuator/health (saúde em geral)
+
 curl http://{PUBLIC_IP}:8080/actuator/liveness (estatus de execução)
+
 curl http://{PUBLIC_IP}:8080/actuator/readiness (se a aplicação está pronta para utilização)
 
 
