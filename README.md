@@ -15,6 +15,6 @@
 - Construção e deploy de uma API no Cloud Oracle
 
 ## Palestrantes
-> **Gleyson Sampaio** Desenvolvedor **Digytal** 
+> **Gleyson Sampaio** Desenvolvedor na **Digytal** 
 
-> **Frank Santos** Arquiteto **Digytal** 
+> **Frank Santos** Arquiteto na **Digytal** 
