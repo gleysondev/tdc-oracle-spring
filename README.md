@@ -36,8 +36,10 @@ docker push frankmms/tdc-oracle-spring:v1
 
 ## Fazer o deploy da aplicação
 
+```bash
 kubectl run tdc-oracle-spring --image=frankmms/tdc-oracle-spring:v1 --port=8080
 kubectl get deploy
+```
 
 ## Expor o serviço da aplicação
 
