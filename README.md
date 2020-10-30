@@ -15,22 +15,24 @@
 - Construção e deploy de uma API no Cloud Oracle
 
 ## Compilar, construir e gerar pacote da aplicação
-
+```bash
 git clone https://github.com/gleysondev/tdc-oracle-spring.git
 cd tdc-oracle-spring
 mvn install
+```
 
 ## Gerar e publicar imagem Docker
-
+```bash
 docker build -t tdc-oracle-spring:v1 .
 docker tag tdc-oracle-spring:v1 frankmms/tdc-oracle-spring:v1
 docker push frankmms/tdc-oracle-spring:v1
+```
 
 ## Criar cluster no Oracle Cloud OKE**
 
-Acessar sua conta no Oracle Cloud https://www.oracle.com/cloud/sign-in.html
+* Acessar sua conta no Oracle Cloud https://www.oracle.com/cloud/sign-in.html
 
-Menu > Serviços ao Desenvolvedor > Clusters de Container (OKE)
+* Menu > Serviços ao Desenvolvedor > Clusters de Container (OKE)
 
 ## Fazer o deploy da aplicação
 
@@ -39,8 +41,10 @@ kubectl get deploy
 
 ## Expor o serviço da aplicação
 
+```bash
 kubectl expose deploy tdc-oracle-spring --type=LoadBalancer
 kubectl get service
+```
 
 ## Acessar a aplicação
 
