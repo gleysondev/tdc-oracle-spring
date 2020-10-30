@@ -3,9 +3,9 @@
 ## Sexta 30/10 | Trilha Java
 
 
-**SpringBoot Star(ters)**
+# SpringBoot Star(ters) 
 
-**Demonstrar os recursos e a produtividade adquirida utilizando Spring Boot Starters.**
+## Demonstrar os recursos e a produtividade adquirida utilizando Spring Boot Starters.
 
 - Desafios com gerenciando de dependências 
 - Benefícios dos Starters
@@ -28,7 +28,7 @@ docker tag tdc-oracle-spring:v1 frankmms/tdc-oracle-spring:v1
 docker push frankmms/tdc-oracle-spring:v1
 ```
 
-## Criar cluster no Oracle Cloud OKE**
+## Criar cluster no Oracle Cloud OKE
 
 * Acessar sua conta no Oracle Cloud https://www.oracle.com/cloud/sign-in.html
 
